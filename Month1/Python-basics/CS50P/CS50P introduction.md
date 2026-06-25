@@ -16,23 +16,23 @@ What it covers:
 
 Notes:
 
-  -Functions and Variables = https://cs50.harvard.edu/python/notes/0/ 
+  -Functions and Variables = https://cs50.harvard.edu/python/weeks/0/
 
-  -Conditionals = https://cs50.harvard.edu/python/notes/1/ 
+  -Conditionals = https://cs50.harvard.edu/python/weeks/1/
 
-  -Loops = https://cs50.harvard.edu/python/notes/2/ 
+  -Loops = https://cs50.harvard.edu/python/weeks/2/ 
 
-  -Exceptions = https://cs50.harvard.edu/python/notes/3/ 
+  -Exceptions = https://cs50.harvard.edu/python/weeks/3/ 
 
-  -Libraries = https://cs50.harvard.edu/python/notes/4/ 
+  -Libraries = https://cs50.harvard.edu/python/weeks/4/ 
 
-  -Unit Tests = https://cs50.harvard.edu/python/notes/5/
+  -Unit Tests = https://cs50.harvard.edu/python/weeks/5/
 
-  -File I/O = https://cs50.harvard.edu/python/notes/6/
+  -File I/O = https://cs50.harvard.edu/python/weeks/6/
 
-  -Regular Expressions = https://cs50.harvard.edu/python/notes/7/
+  -Regular Expressions = https://cs50.harvard.edu/python/weeks/7/
 
-  -Object Oriented Programming = https://cs50.harvard.edu/python/notes/8/
+  -Object Oriented Programming = https://cs50.harvard.edu/python/weeks/8/
 
-  -Etc = https://cs50.harvard.edu/python/notes/9/
+  -Etc = https://cs50.harvard.edu/python/weeks/9/
 
