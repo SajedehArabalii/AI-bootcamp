@@ -10,11 +10,11 @@ Working with data: lists, dictionaries, files, libraries
 Problem solving: exceptions, debugging, regular expressions
 More advanced fundamentals: object-oriented programming, classes, properties, unit testing
 
-functions and variables = https://cs50.harvard.edu/python/notes/0/ \n
-conditionals = https://cs50.harvard.edu/python/notes/1/ \n
-loops = https://cs50.harvard.edu/python/notes/2/ \n
-exceptions = https://cs50.harvard.edu/python/notes/3/ \n
-libraries = https://cs50.harvard.edu/python/notes/4/ \n
+functions and variables = https://cs50.harvard.edu/python/notes/0/ 
+conditionals = https://cs50.harvard.edu/python/notes/1/ 
+loops = https://cs50.harvard.edu/python/notes/2/ 
+exceptions = https://cs50.harvard.edu/python/notes/3/ 
+libraries = https://cs50.harvard.edu/python/notes/4/ 
 unit tests = https://cs50.harvard.edu/python/notes/5/
 file I/O = https://cs50.harvard.edu/python/notes/6/
 regular expressions = https://cs50.harvard.edu/python/notes/7/
