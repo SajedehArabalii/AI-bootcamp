@@ -4,7 +4,7 @@ It’s designed for beginners, including people with no prior programming experi
 
 What it covers:
 
-  *Python basics: variables, types, conditionals, loops, functions
+  -Python basics: variables, types, conditionals, loops, functions
 
   -Program structure: arguments, return values, scope
 
