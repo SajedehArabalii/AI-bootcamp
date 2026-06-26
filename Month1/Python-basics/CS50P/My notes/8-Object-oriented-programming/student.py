@@ -25,7 +25,7 @@ def main():
 #     # This returns a list
 #     return [name, city]
 
-#another way of writing get_student()
+#another way of writing get_student() where we return dictionaries which are mutable
 def get_student():
     student = {}
     student["name"] = input("Name: ")
