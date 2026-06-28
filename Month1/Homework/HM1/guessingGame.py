@@ -32,6 +32,7 @@ def main():
 
 # Gets the guess and makes sure it is valid
 def get_guess(low,high):
+            #Unit test
             while True:
                 try:
                     guess = int(input("Enter a number: "))
@@ -56,5 +57,5 @@ def compare(num, guess):
 
 
 if __name__ == "__main__":
-    main()
+    main()     
     
