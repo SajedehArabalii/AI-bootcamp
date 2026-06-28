@@ -12,7 +12,6 @@ def main():
     # instruction
     print("Welcome to your library, What would you like to do? ")
 
-    # make a loop so the app keeps on going 
     # compare the choice to the options 
     while True:
         choice = get_choice()
