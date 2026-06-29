@@ -28,12 +28,12 @@ def main():
 
 # Getting choice and making sure it is valid
 def get_choice():
-    valid = {"add", "search", "show", "exit"}
+    VALID_CHOICES = ("add", "search", "show", "exit")
 
     while True:
         choice = input("Add, Search, Show or Exit? ").strip().lower()
 
-        if choice in valid:
+        if choice in VALID_CHOICES:
             return choice
         
         else:
@@ -65,15 +65,15 @@ def not_empty(prompt):
 # Searches for a book in dictionary
 def search(library):
     # flag = 0
-    book = input("What book are you looking for: ").strip().title()
-    # for title,author in library.items():
+    title = input("What book are you looking for: ").strip().title()
+    # for title, author in library.items():
     #     if title == book:
     #         print(f"Author's title is {author}")
     #         flag +=1
     # if flag == 0:
     #     print("book was not found.")
-    if book in library:
-        print(f"Author's name is {library[book]}.")
+    if title in library:
+        print(f"Author's name is {library[title]}.")
     else:
         print("Book was not found.")
 
