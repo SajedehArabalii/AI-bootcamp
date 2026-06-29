@@ -1,3 +1,4 @@
+#get 5 names and print the number if clients, first client  and last client
 clients= []
 
 for i in range(5):

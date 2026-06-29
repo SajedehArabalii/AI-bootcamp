@@ -1,3 +1,4 @@
+# Get a string and count the vowels
 txt = input("Enter a string:")
 count = 0
 for letter in txt:

@@ -1,3 +1,5 @@
+# make a contact notebook
+# give it the ability to add, search, show, exit
 contacts = {}
 while True:
     print("1, Add: ")
