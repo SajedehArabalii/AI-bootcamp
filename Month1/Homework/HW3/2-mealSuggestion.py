@@ -23,12 +23,8 @@ users = np.array([
 ]) 
 
 """
-Compute min_vals = recipes.min(axis=0).
-Compute max_vals = recipes.max(axis=0).
-Apply the Min-Max formula to every value in the array.
-Save the scaled result.
+Min max Scaling
 """
-# Min Max scaling
 min_vals = recipes.min(axis=0)
 max_vals = recipes.max(axis=0)
 
@@ -38,17 +34,29 @@ recipes_scaled = (recipes - min_vals) / (max_vals - min_vals)
 # print(f"Max values: {max_vals}")
 # print("Scaled recipes:\n", recipes_scaled)
 
+"""
+Scaling users the same way
+"""
 users_scaled = (users - min_vals)/(max_vals - min_vals)
 # print(f"Scaledd users:\n{users_scaled}")
 
+"""
+Distance between users and recipes
+"""
 distances = np.sqrt(np.sum((users_scaled.reshape(3,1,4)-recipes_scaled.reshape(1,5,4))**2, axis= 2))
 # print(f"Distance matrix:\n{distances}")
 
+"""
+Finding the nearest recipe
+"""
 nearest_i = np.argmin(distances, axis=1)
 
 for i in range(len(users)):
     print(f"user {i+1}'s nearest recipe in {recipe_names[nearest_i[i]]}")
 
+"""
+Ranking recipes from nearest the farthest
+"""
 for i in range(len(users)):
     ranked_i = np.argsort(distances[i])
     ranked_recipes = [recipe_names[j] for j in ranked_i]
