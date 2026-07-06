@@ -16,10 +16,12 @@ Within the dataset, a value of 0 in the Weight, Height, or Weekly Sessions colum
 Replace these zeros with a logical estimate
 Note: Do not modify the Age column.
 """ 
-
-gym_data[4,2] = gym_data[gym_data[:, 2] != 0, 2].mean()
-gym_data[5,3] = gym_data[gym_data[:, 3] != 0, 3].mean()
-# print(gym_data)
+# make missing data handling scalable for larger database
+# Creating a mask for zeros
+for col in [2,3]:# columns 2 and 3
+    col_data = gym_data[:,col]
+    mean_val = col_data[col_data !=0].mean #calculating means of nonzero values
+    gym_data[col_data == 0, col] = mean_val # replace all zeros
 
 """
 2. Array Slicing
