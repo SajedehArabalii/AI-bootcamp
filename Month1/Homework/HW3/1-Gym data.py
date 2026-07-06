@@ -1,4 +1,12 @@
 import numpy as np
+
+"""
+columns in order:
+    0 => age
+    1 => weight
+    2 => height
+    3 => sessions
+"""
 gym_data = np.array([ 
     [28, 75, 175, 4], 
     [34, 68, 168, 3], 
