@@ -1,4 +1,5 @@
 Begginer Youtube resources :
+
 -StatQuest with Josj Starmer[https://www.youtube.com/@statquest?utm_source=chatgpt.com]
 -3Blue1Brown_Neural Network Series[https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&utm_source=chatgpt.com]
 -Computerphile[https://www.youtube.com/@Computerphile?utm_source=chatgpt.com]
