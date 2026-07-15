@@ -1,4 +1,4 @@
-###Begginer Youtube resources :
+##Begginer Youtube resources :
 
 -StatQuest with Josh Starmer[https://www.youtube.com/@statquest?utm_source=chatgpt.com]
 
@@ -13,7 +13,8 @@ _MIT OpenCourseWare_Introduction to Deep Learning[https://www.youtube.com/@mitoc
 _Vsauce_ The Game That Learns[https://www.youtube.com/results?search_query=Vsauce+The+Game+That+Learns&utm_source=chatgpt.com]
 
 
-###Websites: 
+##Websites: 
+
 _Google's Machine Learning Crash Course[https://developers.google.com/machine-learning/crash-course?utm_source=chatgpt.com]
 
 _Google's Machine Learning Glossery[https://developers.google.com/machine-learning/glossary?utm_source=chatgpt.com]
