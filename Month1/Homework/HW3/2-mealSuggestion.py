@@ -39,6 +39,10 @@ Scaling users the same way
 """
 users_scaled = (users - min_vals)/(max_vals - min_vals)
 # print(f"Scaledd users:\n{users_scaled}")
+# print("----------------------------------")
+# print(users_scaled.shape)
+# print(recipes_scaled.shape)
+# print("----------------------------------")
 
 """
 Distance between users and recipes

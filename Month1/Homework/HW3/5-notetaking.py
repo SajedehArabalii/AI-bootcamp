@@ -12,6 +12,9 @@ print(f"Reshape method 1: {col1.shape}")
 col2 = importance[:,np.newaxis]
 print(f"Reshape method 2: {col2.shape}")
 
+col3 = importance.T
+print(f"Reshape method 3: {col3.shape}")
+
 """
 Extract 0.9 as a scalar from model_out
 """
@@ -45,7 +48,7 @@ Make a subarray change affect the original array
 """
 arr = np.array([1, 2, 3, 4, 5])
 sub = arr[2:4]
-sub[0] = 100
+sub[1] = 100
 print(arr)
 
 

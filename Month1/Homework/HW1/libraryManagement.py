@@ -51,7 +51,6 @@ def add(library):
         if input("Do you want to continue(y/n): ").strip().lower() != "y":
             break
 
-
 #Check that the input is not empty
 #prompt = "What is the .... of the book?: "
 def not_empty(prompt):
@@ -60,7 +59,6 @@ def not_empty(prompt):
         if value:
             return value
         print("Input cannot be empty.")
-
 
 # Searches for a book in dictionary
 def search(library):
@@ -76,7 +74,6 @@ def search(library):
         print(f"Author's name is {library[title]}.")
     else:
         print("Book was not found.")
-
 
 # Prints all item in dictionary
 def show(library):

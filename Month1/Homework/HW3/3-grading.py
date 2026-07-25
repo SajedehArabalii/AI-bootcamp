@@ -44,6 +44,17 @@ for i in range(len(scores)):
     print(f"Student {i+1}: strongest subject index is {best_subject_indices[i]}")
 
 """
-Add a new student and explain the new matrix
+Add a new scheme and explain the new matrix
 """
-#TODO: Should ask about this part of the question
+
+scheme_D = np.array([0.2, 0.4, 0.4])   # final = 2 × quiz, sum = 1
+
+weight_matrix = np.vstack((weight_matrix, scheme_D))
+
+print("Updated weight matrix:")
+print(weight_matrix)
+
+final_scores = scores @ weight_matrix.T
+
+print("\nFinal scores:")
+print(final_scores)

@@ -85,14 +85,14 @@ def outlier(new_data,member_names):
     sessions = new_data[:,2]
     # Calculate Mean and Standard Deviation
     mean = np.mean(sessions)
-    std = np.std(sessions, ddof= 1) #
+    session_std = np.std(sessions, ddof= 1) # ddof=1 divides by (n - 1) instead of n
 
-    if std == 0 :
+    if session_std == 0 :
         print("No outlier: all session counts are identical.")
         return
 
     # Calculate Z-scores (how many standard deviations each person is from the mean)
-    z_scores = np.abs(sessions - mean) / std
+    z_scores = np.abs(sessions - mean) / session_stdstd
 
     # Find the index of the highest Z-score
     outlier_index = np.argmax(z_scores)
@@ -101,6 +101,16 @@ def outlier(new_data,member_names):
     print(f"The biggest outlier is: {member_names[outlier_index]}")
     print(f"Number of sessions: {sessions[outlier_index]}")
     print(f"Z-score: {z_scores[outlier_index]:.2f}")
+
+
+# avg_sessions = np.mean(sessions)
+# shape = avg_sessions.shape
+# print("shape is ", shape)
+# difference = sessions - avg_sessions
+# abs_difference = np.abs(difference)
+# best_index = np.argmax(abs_difference)
+# best_name = member_names[best_index]
+# print(f"ozve {best_index} ke esmesh hast {best_name}")
 
 if __name__ == "__main__":
     main()
