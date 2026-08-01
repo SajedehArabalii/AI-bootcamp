@@ -1,0 +1,9 @@
+city,avg_temp,humidity,popularity,cost_index
+Kish,32,55,9,7 
+Shiraz,28,35,8,5 
+Tabriz,18,50,6,4 
+Yazd,30,20,5,3 
+Rasht,22,75,7,6 
+Isfahan,25,40,9,5 
+Mashhad,20,45,8,4 
+Ardabil,17,N/A,4,3 
